@@ -30,7 +30,11 @@ end
 
 def total_gross(source)
 
-  pp directors_totals(source)
+  directors_totals(source).each do |k,v|
+    puts v
+  end
+
+
   # Write this implementation
   #
   # Should use methods:
