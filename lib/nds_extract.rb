@@ -29,7 +29,7 @@ def list_of_directors(source)
   directors_totals(source).each do |k|
     directors.push(k)
   end
-  return directors
+  pp directors
 end
 
 def total_gross(source)
