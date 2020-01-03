@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   directors = []
-  directors_totals(source).each do |k|
+  directors_totals(source).each do |k, v|
     directors.push(k)
   end
   pp directors
