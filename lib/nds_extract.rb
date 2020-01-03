@@ -29,7 +29,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total = 0 
+  total = 0
   directors_totals(source).each do |k,v|
     total += v
   end
